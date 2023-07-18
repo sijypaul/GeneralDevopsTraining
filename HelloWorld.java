@@ -1,12 +1,12 @@
 import java.io.*;
 public class HelloWorld
 {
-	public static void main(String args[]) throws IOException
+	public static void main(String args[]) 
 	{
 		
-		DataInputStream d= new DataInputStream(System.in);
-		System.out.println("Enter a number:");
-		int x= Integer.parseInt(d.readLine());
+		//DataInputStream d= new DataInputStream(System.in);
+		//System.out.println("Enter a number:");
+		int x= args[0];
 		if(x==5)
 		   System.out.println("Hello World....");
 		else
