@@ -6,7 +6,7 @@ public class HelloWorld
 		
 		//DataInputStream d= new DataInputStream(System.in);
 		//System.out.println("Enter a number:");
-		int x= args[0];
+		int x= Integer.parseInt(args[0]);
 		if(x==5)
 		   System.out.println("Hello World....");
 		else
